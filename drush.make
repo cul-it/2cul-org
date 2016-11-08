@@ -2,6 +2,9 @@ core = 7.x
 api = 2
 projects[drupal][version] = "7.51"
 
+libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.3/ckeditor_4.3_standard.zip"
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
 libraries[jquery.cycle][download][type] = "get"
 libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
